@@ -1,0 +1,117 @@
+body {
+    background-color: #363b4e;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.header {
+    background-color: #363b4e;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+}
+
+.row {
+    background-color: #363b4e;
+    margin: 0%;
+    padding: 0;
+    height: 100%;
+    margin: auto;
+}
+
+.footer {
+    background-color: #f48571;
+    height: 50px;
+    width: 100%;
+}
+
+#main_text {
+    position: relative;
+    width: 20%;
+    cursor: pointer;
+}
+
+#main_button {
+    width: 4%;
+    cursor: pointer;
+    margin-left: 50%;
+}
+
+
+#orderBtn {
+    width: 20%;
+    margin-bottom: 2%;
+    cursor: pointer;
+}
+
+#bouquet {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.container {
+    margin-left: 30%;
+    width: 50%;
+    height: 50%;
+    margin-left: 50%;
+}
+
+.column {
+    background-color: #363b4e;
+    height: 120%;
+    width: 100%;
+}
+
+#comment {
+    color: beige;
+    font-family: 'Jeju Myeongjo', serif;
+}
+
+.image {
+    display: block;
+    width: 89%;
+    height: 80%;
+}
+
+.overlay {
+    position: absolute;
+    transition: all .3s ease;
+    opacity: 0;
+    transition: 0.9s;
+    background: rgba(255, 204, 204, 0);
+    ;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: #363b4e;
+    font-family: sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    opacity: 1;
+}
+
+#text {
+    opacity: 1;
+}
+
+.overlayFade {
+    height: 80%;
+    width: 80%;
+    top: 0;
+    left: 10%;
+    background: #e8ac90;
+}

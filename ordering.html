@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Untitled Document</title>
+    <link href="ordering.css" type="text/css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <img src="main_text.png" id="main_text" onclick="location.href='main.html'" />
+    </div>
+    <div class="row">
+            <div class="container" id="login_box">
+                <form class="form-inline" action="login.php">
+                    <div class="form-group">
+                        <label for="email" style="color: antiquewhite">ID:</label>
+                        <input type="id" class="form-control" id="id" placeholder="id" name="id">
+                    </div>
+                    <div class="form-group">
+                        <label for="pwd" style="color: antiquewhite">Password:</label>
+                        <input type="password" class="form-control" id="pwd" placeholder="password" name="pwd">
+                    </div>
+                    <button type="submit" class="btn btn-default" id="login_btn">Log in</button>
+                    <button type="button" id="signin_btn" onclick="location.href='member_join_form.php'">Sign in</button>
+                </form>
+            </div>
+        <center>
+            <div class="column">
+
+            </div>
+        </center>
+    </div>
+    <div class="footer">
+
+    </div>
+
+</body>
+
+</html>

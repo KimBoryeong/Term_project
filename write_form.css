@@ -1,0 +1,69 @@
+body {
+    background-color: #363b4e;
+}
+
+#join_img {
+    width: 50%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#usr, #pwd, #name {
+    width: 50%;
+    display: inline-block;
+}
+
+#form {
+    text-decoration-color: antiquewhite;
+}
+
+#id {
+    align-items: flex-start;
+}
+
+#writer_img, #title_img, #naiyou_img {
+    width: 100%;
+    margin-right: 3%;
+    display: flex;
+}
+
+#submit_btn {
+    width: 40%;
+    background-color: transparent !important;
+    background-image: none !important;
+    border-color: transparent;
+    border: none;
+    color: #FFFFFF;
+    margin-top: 2%;
+}
+
+#form_container {
+    width: 60%;
+}
+
+#content {
+    height: 50%;
+}
+
+#order_img {
+    margin-top: 5%;
+    margin-bottom: 3%;
+    width: 30%;
+}
+
+#okBtn {
+    background-color: transparent !important;
+    background-image: none !important;
+    border-color: transparent;
+    border: none;
+    color: #FFFFFF;
+    width: 30%;
+
+}
+
+#listBtn {
+    border: none;
+    color: #FFFFFF;
+    width: 20%;
+    cursor: pointer;
+}

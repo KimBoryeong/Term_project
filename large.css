@@ -1,0 +1,33 @@
+body {
+    background-color: #363b4e;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.header {
+    background-color: #363b4e;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+}
+
+.row {
+    background-color: #363b4e;
+    margin: 0%;
+    padding: 0;
+    height: 100%;
+    margin: auto;
+}
+
+.footer{
+    background-color: #f48571;
+    height: 50px;
+    width: 100%;
+}
+
+#main_text {
+    position: relative;
+    width: 20%;
+    cursor: pointer;
+}

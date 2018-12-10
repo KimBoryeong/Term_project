@@ -1,0 +1,74 @@
+body {
+    background-color: #363b4e;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.header {
+    background-color: #363b4e;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.row {
+    background-color: #363b4e;
+    margin: 0%;
+    padding: 0;
+    width: 105%;
+    height: 120%;
+}
+
+
+.th{
+    text-decoration-color: aqua;
+}
+
+.footer{
+    background-color: #f48571;
+    height: 50px;
+    width: 100%;
+}
+
+#main_text {
+    position: relative;
+    width: 20%;
+    cursor: pointer;
+}
+
+#login_box {
+    margin-left: 47%;
+    margin-bottom: 2%;
+}
+
+#logout_btn, #ordering_btn {
+    background-color: transparent !important;
+    background-image: none !important;
+    border-color: transparent;
+    border: none;
+
+    color: #FFFFFF;
+}
+
+#login_btn, #signin_btn {
+    background-color: transparent !important;
+    background-image: none !important;
+    border-color: transparent;
+    border: none;
+
+    color: #FFFFFF;
+}
+
+#board_box {
+    height: 40%;
+    height: 120%;
+    background-color: #e8d8cc;
+    margin-bottom: 3%;
+    padding: 2%;
+}
+
+#write_btn {
+    width: 8%;
+    cursor: pointer;
+    display: inherit;
+}

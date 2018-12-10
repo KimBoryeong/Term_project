@@ -1,0 +1,76 @@
+body{
+    background-image: url(main.png);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+h1{
+    color: whitesmoke;
+    text-align: center;
+}
+
+
+#login{
+    background-color: black;
+    background-size: 80%;
+    align-content: center;
+}
+
+#main_text{
+    position: absolute;
+    top: 25%;
+    left: 32%;
+    width: 550px;
+    height: 350px;
+}
+
+
+a {
+    position:absolute;
+    top:80%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:250px;
+    height:60px;
+    padding:0 1rem;
+    line-height:60px;
+    text-align:center;
+    border:2px solid #fff;
+    font-size:30px;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-family:sans-serif;
+    color:#fff;
+    overflow: hidden;
+}
+a span  {
+    display:inline-block;
+    transition:0.5s;
+}
+a span:nth-child(odd):before {
+    content:attr(data-text);
+    position:absolute;
+    transform:translateY(100%);
+}
+a span:nth-child(odd){
+    transform:translateY(-100%);
+}
+a:hover span:nth-child(odd){
+    transform:translateY(0);
+    color:#363b4e;
+}
+a span:nth-child(even):before {
+    content:attr(data-text);
+    position:absolute;
+    transform:translateY(-100%);
+}
+
+a span:nth-child(even){
+    transform:translateY(100%);
+}
+a:hover span:nth-child(even){
+    transform:translateY(0);
+    color:#363b4e;
+    text-decoration: :none;
+}
